@@ -1,0 +1,519 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (max-width: 1024px) {
+		#header-section {
+			position: relative;
+			top: 0;
+		}
+		nav.section-nav {
+			display: block;
+		}
+		#content {
+			padding: 1px 0 40px;
+		}
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		.section-heading.portfolio-heading span.section-desc {
+			width: 520px;
+		}
+		.section-heading.blog-heading span.section-desc {
+			width: 590px;
+		}
+		img.attachment-portfolio-detail-image, article.type-portfolio .flexslider, article.type-portfolio .video-player, figure.portfolio-display a.image-post {
+			width: 632px;
+		}
+		.video-player iframe {
+			height: 280px;
+		}
+		article.type-page .video-player iframe, article.type-post .video-player iframe {
+			height: 280px;
+		}
+		article.type-post .video iframe {
+			height: 300px;
+		}
+		.container li.three.columns {
+			width: 364px;
+		}
+		img.attachment-portfolio-detail-image, article.type-portfolio .flexslider, article.type-portfolio .video-player {
+			width: 632px;
+		}
+		article.type-portfolio .flexslider, article.type-portfolio .flexslider .slides li > a, article.type-portfolio .portfolio-display > a {
+			height: 295px;
+		}
+		.client-box {
+			width: 344px;
+		}
+		ul.social-icons li {
+			margin-right: 10px;
+		}
+		textarea#commentsText {
+			width: 368px;	
+		}
+		.page-text {
+			margin-bottom: 20px;
+		}
+		.container #contact .page-text.ten.columns {
+			width: 386px;
+		}
+		textarea#commentsText {
+			width: 496px;
+		}
+		#copyright p {
+			width: 690px;
+		}
+		.blog-items.one-column .item-details h2 {
+			width: 420px;
+		}
+		.footer-widgets section.widget input {
+			width: 152px;
+		}
+		#commentform textarea {
+			width: 496px;
+		}
+		li.depth-1 .comment-wrap .comment-content {
+			width: 420px;
+		}
+		li.depth-2 .comment-wrap .comment-content {
+			width: 400px;
+		}
+		li.depth-3 .comment-wrap .comment-content {
+			width: 380px;
+		}
+		li.depth-4 .comment-wrap .comment-content {
+			width: 360px;
+		}
+		li.depth-5 .comment-wrap .comment-content {
+			width: 340px;
+		}
+		li.depth-6 .comment-wrap .comment-content {
+			width: 320px;
+		}
+		.gallery .gallery-item {
+			width: 16%;
+		}
+		.container aside#sidebar.five.columns {
+			width: 220px;
+		}
+		li.blog-item h2 {
+			width: 435px;
+		}
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		li.blog-item .item-heading {
+			margin: 5px 18px 0 18px;
+		}
+		li.blog-item .blog-excerpt {
+			margin: 0 0 10px 20px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.section-heading.portfolio-heading span.section-desc, .section-heading.blog-heading span.section-desc {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.controls-wrap {
+			text-align: center;
+			width: 100%;
+		}
+		.site-loading {
+			top: 18px;
+		}
+		img.attachment-portfolio-detail-image, article.type-portfolio .flexslider, article.type-portfolio .video-player, figure.portfolio-display a.image-post {
+			width: 356px;
+		}
+		.container .portfolio-display.fourteen.columns {
+			width: 376px;
+		}
+		#home-slider {
+			margin-bottom: 0;
+		}
+		#home-slider .custom-caption p {
+			font-size: 22px;
+			padding: 10px;
+		}
+		#tagline {
+			margin-bottom: 30px;
+		}
+		#tagline p {
+			font-size: 24px;
+		}
+		#home-slider .flex-control-nav, #home-slider .flex-direction-nav {
+			display: none;
+		}
+		.container li.three.columns {
+			width: 420px;
+		}
+		.container .blog-items .item-details.ten.columns {
+			padding-left: 0;
+		}
+		li.blog-item .item-heading {
+			margin: 15px 0 0;
+		}
+		li.blog-item .blog-excerpt {
+			margin: 0 0 15px 0;
+		}
+		.blog-items .meta {
+			margin: 0;
+		}
+		.container #contact .page-text.ten.columns {
+			width: 378px;
+		}
+		article.type-portfolio {
+			padding: 40px 0;
+		}
+		img.attachment-portfolio-detail-image, article.type-portfolio .flexslider, article.type-portfolio .video-player {
+			width: 356px;
+		}
+		article.type-portfolio .flexslider, article.type-portfolio .flexslider .slides li > a, article.type-portfolio .portfolio-display > a {
+			height: 166px;
+		}
+		.portfolio-items, .blog-items {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		#main-navigation {
+			display: none;
+		}
+		#mobile-navigation {
+			display: block;
+		}
+		.container .twelve.columns.nav-wrap {
+			float: none;
+		}
+		.container #logo {
+			width: 95px;
+		}
+		article.type-portfolio .flex-control-nav {
+			display: none;
+		}
+		article.type-portfolio .flexslider {
+			margin-bottom: 0;
+		}
+		.video-player iframe, article.type-page .video-player iframe, article.type-post .video-player iframe {
+			height: 250px;
+		}
+		article.type-post .video iframe {
+			height: 250px;
+		}
+		#header-section {
+			border-top-size: 5px;
+		}
+		#header-section {
+			height: 117px!important; /* !important to take priority over jQuery animation */
+		}
+		.container #logo {
+			height: auto;
+			text-align: center;
+			width: 100%;
+		}
+		#logo a img {
+			height: 45px!important; /* !important to take priority over jQuery animation */
+			padding: 10px 0 5px;
+		}
+		#mobile-navigation {
+			width: 100%;
+			margin: 12px 0;
+			text-align: center;
+		}
+		#mobile-navigation select {
+			margin: 0 auto;
+		}
+		article.type-post .detail-body h2 {
+			margin: 20px 20px 10px 20px;
+		}
+		article.type-post .detail-body .body-content {
+			margin: 0 20px 0 20px;
+		}
+		.person-widget {
+			width: 100%;
+			margin: 0 0 10px;
+		}
+		.person-widget.left {
+			margin-right: 0;
+		}
+		.client-box {
+			width: 410px;
+		}
+		ul.social-icons li {
+			margin-right: 10px;
+		}
+		textarea#commentsText {
+			width: 408px;	
+		}
+		.page-text {
+			margin-bottom: 20px;
+		}
+		.container aside#sidebar.five.columns {
+			margin-left: 0;
+			width: 418px;
+		}
+		#copyright p {
+			width: 355px;
+		}
+		.footer-widgets section.widget input {
+			width: 398px;
+		}
+		.container article.type-post.eleven.columns, .container .detail-info.three.columns, .container .detail-body.eight.columns, .container article.type-page.eleven.columns {
+			width: 420px;
+		}
+		.detail-info ul li {
+			margin-right: 0;
+		}
+		article.type-post .detail-body h2 {
+			margin: 20px 0 10px;
+		}
+		article.type-post .detail-body .body-content {
+			margin: 0;
+		}
+		li.blog-item .aside-excerpt {
+			margin: 20px 0 15px 0;
+		}
+		#commentform textarea {
+			width: 408px;
+		}
+		li.depth-1 .comment-wrap .comment-content {
+			width: 330px;
+		}
+		li.depth-2 .comment-wrap .comment-content {
+			width: 310px;
+		}
+		li.depth-3 .comment-wrap .comment-content {
+			width: 290px;
+		}
+		li.depth-4 .comment-wrap .comment-content {
+			width: 270px;
+		}
+		li.depth-5 .comment-wrap .comment-content {
+			width: 250px;
+		}
+		li.depth-6 .comment-wrap .comment-content {
+			width: 230px;
+		}
+		aside#sidebar .widget {
+			margin: 0 0 40px 0;
+		}
+		article.type-portfolio .flex-direction-nav {
+			display: none;
+		}
+		nav .menu li {
+			margin: 0 5px 0 0;
+		}
+		nav.section-nav > div {
+			float: left;
+		}	
+		nav.section-nav .menu li {
+			margin: 0 15px 0 0;
+		}
+		nav.section-nav .menu li:before {
+			content: "";
+		}
+		nav.section-nav .menu li a {
+			padding: 6px 6px 6px 0;
+		}
+		.gallery .gallery-item {
+			width: 12%;
+		}
+		.single-post .section.recent-blog {
+			margin-top: 50px;
+		}
+		#portfolio-filter {
+			padding: 20px 15px 0;
+		}
+		#portfolio-filter li {
+			margin-left: 2%;
+			margin-right: 2%;
+			width: 46%;
+			text-align: center;
+		}
+		#portfolio-filter li:first-child {
+			margin-left: 2%;
+			margin-right: 2%;
+		}
+		li.blog-item h2 {
+			width: 420px;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		article.type-portfolio {
+			padding: 20px 0;
+		}
+		.container figure.fourteen.columns.portfolio-display {
+			margin: 0 20px;
+		}
+		.container .columns.portfolio-detail-description {
+			margin: 20px 20px 0;
+			width: 375px;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.site-loading {
+			top: 15px;
+			right: 10px;
+		}
+		.flex-caption {
+			margin-bottom: 10px;
+		}
+		#home-slider .flex-caption-wrap {
+			display: none;
+		}
+		.container li.three.columns {
+			width: 300px;
+		}
+		figure.portfolio-display a.image-post {
+			width: 250px;
+		}
+		.container .portfolio-display.fourteen.columns {
+			width: 270px;
+		}
+		.container #contact .page-text.ten.columns {
+			width: 258px;
+		}
+		.blog-items.one-column .item-details h2 {
+			width: 300px;
+		}
+		article.type-portfolio {
+			padding: 15px 0;
+		}
+		.container figure.fourteen.columns.portfolio-display {
+			margin: 0 15px;
+		}
+		img.attachment-portfolio-detail-image, article.type-portfolio .flexslider, article.type-portfolio .video-player {
+			width: 250px;
+		}
+		article.type-portfolio .flexslider, article.type-portfolio .flexslider .slides li > a, article.type-portfolio .portfolio-display > a {
+			height: 117px;
+		}
+		.container .columns.portfolio-detail-description {
+			margin: 10px 15px 0;
+			width: 270px;
+		}
+		.video-player iframe, article.type-page .video-player iframe, article.type-post .video-player iframe {
+			height: 170px;
+		}
+		article.type-post .video iframe {
+			height: 185px;
+		}
+		.client-box {
+			width: 100%;
+			margin: 0 0 5px 0;
+		}
+		ul.social-icons li {
+			margin-right: 10px;
+		}
+		textarea#commentsText {
+			width: 288px;	
+		}
+		.container aside#sidebar.five.columns {
+			margin-left: 0;
+			width: 298px;
+		}
+		#copyright p {
+			width: 235px;
+		}
+		.footer-widgets section.widget input {
+			width: 278px;
+		}
+		.container article.type-post.eleven.columns, .container .detail-info.three.columns, .container .detail-body.eight.columns, .container article.type-page.eleven.columns {
+			width: 298px;
+		}
+		#commentform textarea {
+			width: 286px;
+		}
+		.comment-wrap .comment-content {
+			width: 84%;
+		}
+		.comment-wrap .comment-avatar {
+			display: none;
+		}
+		.comment .children > li {
+			padding: 0 0 0 15px;
+		}
+		.comment .avatar-arrow {
+			display: none;
+		}
+		li.depth-1 .comment-wrap .comment-content {
+			width: 276px;
+		}
+		li.depth-2 .comment-wrap .comment-content {
+			width: 260px;
+		}
+		li.depth-3 .comment-wrap .comment-content {
+			width: 244px;
+		}
+		li.depth-4 .comment-wrap .comment-content {
+			width: 228px;
+		}
+		li.depth-5 .comment-wrap .comment-content {
+			width: 212px;
+		}
+		li.depth-6 .comment-wrap .comment-content {
+			width: 196px;
+		}
+		.one_half, .one_third, .two_third, .three_fourth, .one_fourth {
+			width: 96%;
+			margin-bottom: 10px;
+		}
+		.gallery .gallery-item {
+			width: 88%;
+			margin-bottom: 20px;
+		}
+		li.blog-item h2 {
+			width: 300px;
+		}
+		ul.social-icons {
+			margin-right: 0;
+		}
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

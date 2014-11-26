@@ -1,0 +1,19 @@
+#im_spa_data input.small {
+	width: 40px;
+}
+#im_spa_data input.medium {
+	width: 40%;
+}
+#im_spa_data input.large {
+	width: 80%;
+}
+#im_spa_data label {
+	font-weight: bold;
+}
+#im_spa_data label em {
+	font-weight: normal;
+}
+#im_spa_data textarea {
+	width: 40%;
+	height: 100px;
+}

@@ -1,0 +1,34 @@
+#main-navigation{display:none;}
+#footer .footer-widgets{display:none;}
+#footer .divide{display:none;}
+#top-social-media{display:none;}
+.Cart66ButtonPrimary, .Cart66ButtonSecondary, #content .Cart66ButtonPrimary, #content .Cart66ButtonSecondary, .Cart66CartButton .purAddToCart{
+    display: none !important;
+}
+.horizontal-break,
+.tabbed-asset,
+#hook,
+select.cart66Options{
+    display: none;
+}
+
+#logo a img {
+    height: auto;
+    left: 35%;
+/*    margin-left: 20px;*/
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+}
+section.detail-info{
+	display:none;
+}
+aside#sidebar{
+	display:none;
+}
+#comment-area{
+	display:none;
+}
+.controls-wrap{
+	display: none;
+}
